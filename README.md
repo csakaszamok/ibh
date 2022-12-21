@@ -1,4 +1,4 @@
 # ibh
 itsy-bitsy html template
 
-![monster (Small)](https://user-images.githubusercontent.com/5373500/209004427-d483857a-3376-4b97-a619-add912db630c.png)
+![monster](https://user-images.githubusercontent.com/5373500/209004813-5e598cda-ef08-4fba-b82c-552d226c3566.png)
