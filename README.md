@@ -12,8 +12,8 @@
 ```
 ```html
 <script type="module">
-  import * from 'https://unpkg.com/itsy-bitsy-html-template?module';  
-  let elem1 = cloneTemplate({selector: '#my-template', variables: { myVariable: "What's up ?" } })
+  import * from 'https://unpkg.com/ibh?module';  
+  const elem1 = cloneTemplate({selector: '#my-template', variables: { myVariable: "What's up ?" } })
   document.appendChild(elem1)
 </script>
 ```
@@ -32,9 +32,10 @@ What's up ?
 ```
 ```html
 <script type="module">
-  import * from 'https://unpkg.com/itsy-bitsy-html-template?module';  
-  let arr = [ {myVariable: 'This is one'}, {myVariable: 'This is two'} ]
-  arr.map( item => document.appendChild(  cloneTemplate({selector: '#my-template', variables: item }) )    
+  import * from 'https://unpkg.com/ibh?module';  
+  const arr = [ {myVariable: 'This is one'}, {myVariable: 'This is two'} ]
+  const selector = '#my-template'
+  arr.map( item => document.appendChild(  cloneTemplate({selector, variables: item }) )    
 </script>
 ```
 Output:
