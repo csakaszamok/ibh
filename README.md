@@ -23,7 +23,7 @@ Output:
 What's up ?
 ```
 
-## Use arrays example:
+## Arrays example:
 ```html
 <body>
   <template id="my-template">
