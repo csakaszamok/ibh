@@ -12,6 +12,7 @@ export default class Ibh {
                     return variables[varName] || '';
                 });
             }
+            // Replace variables in element text
             const text = [].reduce.call(elem.childNodes, (a, b) => a + (b.nodeType === 3 ? b.textContent : ''), '');
             const match = text.match(/{{(.*?)}}/)
             if (match && match.length === 2) elem.innerText = elem.innerText.replaceAll("{{" + match[1] + "}}", variables[match[1]])

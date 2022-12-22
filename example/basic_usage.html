@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
 
-
     <body>
         <template id="my-template">
             <div>{{myVariable}}</div>
@@ -14,12 +13,12 @@
         <div id="#container"></div>
 
         <script type="module">
-            // import { Ibh } from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main.min.js';
-            import Ibh from '../dist/main-0.1.0.min.js';
+            import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main-0.1.0.min.js';
+            // import Ibh from '../dist/main-0.1.0.min.js';
             const elem1 = Ibh.cloneTemplate({ selector: '#my-template', variables: { myVariable: "What's up ?" } })
             document.getElementById('#container').appendChild(elem1)
         </script>
 
     </body>
 
-    </html>
+</html>
