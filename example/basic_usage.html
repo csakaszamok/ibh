@@ -14,8 +14,8 @@
         <div></div>
 
         <script type="module">
-            import { appendChild } from 'https://raw.githubusercontent.com/csakaszamok/ibh/main/dist/main.min.js';
-            const elem1 = cloneTemplate({ selector: '#my-template', variables: { myVariable: "What's up ?" } })
+            import { Ibh } from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main.min.js';
+            const elem1 = Ibh.cloneTemplate({ selector: '#my-template', variables: { myVariable: "What's up ?" } })
             document.appendChild(elem1)
         </script>
 
