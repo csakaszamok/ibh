@@ -12,7 +12,7 @@
 </body>
 
 <script type="module">  
-  import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main-0.1.0.min.js';
+  import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/ibh-0.1.0.min.js';
   const elem1 = Ibh.cloneTemplate({selector: '#my-template', variables: { myVariable: "What's up ?" } })
   document.appendChild(elem1)
 </script>
@@ -31,7 +31,7 @@ What's up ?
 </body>
 
 <script type="module">  
-  import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main-0.1.0.min.js';
+  import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/ibh-0.1.0.min.js';
   const arr = [ {myVariable: 'This is one'}, {myVariable: 'This is two'} ]
   const selector = '#my-template'
   arr.map( item => document.appendChild(  Ibh.cloneTemplate({selector, variables: item }) )    
