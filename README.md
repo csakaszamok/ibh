@@ -10,7 +10,7 @@
   </template>
 </body>
 ```
-```js
+```html
 <script type="module">
   import * from 'https://unpkg.com/itsy-bitsy-html-template?module';  
   let elem1 = cloneTemplate({selector: '#my-template', variables: { myVariable: "What's up ?" } })
@@ -30,7 +30,7 @@ What's up ?
   </template>
 </body>
 ```
-```js
+```html
 <script type="module">
   import * from 'https://unpkg.com/itsy-bitsy-html-template?module';  
   let arr = [ {myVariable: 'This is one'}, {myVariable: 'This is two'} ]
