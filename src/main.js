@@ -17,7 +17,7 @@ const replaceTemplateVariables = (rootElement, variables) => {
     return rootElement
 }
 
-const cloneTemplate = ({ selector = 'template', variables }) => {
+export default cloneTemplate = ({ selector = 'template', variables }) => {
     const template = document.querySelector(selector)
     let clone = template.content.cloneNode(true)    
     clone = replaceTemplateVariables(clone, variables)

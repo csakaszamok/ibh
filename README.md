@@ -12,7 +12,7 @@
 ```
 ```html
 <script type="module">
-  import * from 'https://unpkg.com/ibh?module';  
+  import * from 'https://raw.githubusercontent.com/csakaszamok/ibh/main/dist/main.min.js';  
   const elem1 = cloneTemplate({selector: '#my-template', variables: { myVariable: "What's up ?" } })
   document.appendChild(elem1)
 </script>
