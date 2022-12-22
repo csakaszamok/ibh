@@ -22,9 +22,6 @@ Output:
 What's up ?
 ```
 
-[>>> Basic usage demo <<<](example/basic_usage.html)
-
-
 ## Arrays example:
 ```html
 <body>
