@@ -33,11 +33,11 @@ What's up ?
   </template>
 </body>
 
-<script type="module">
-  import * from 'https://unpkg.com/ibh?module';  
+<script type="module">  
+  import Ibh from 'https://cdn.jsdelivr.net/gh/csakaszamok/ibh/dist/main-0.1.0.min.js';
   const arr = [ {myVariable: 'This is one'}, {myVariable: 'This is two'} ]
   const selector = '#my-template'
-  arr.map( item => document.appendChild(  cloneTemplate({selector, variables: item }) )    
+  arr.map( item => document.appendChild(  Ibh.cloneTemplate({selector, variables: item }) )    
 </script>
 ```
 Output:
